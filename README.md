@@ -1,3 +1,4 @@
+<pre>```php
 1)
 composer create-project laravel/laravel laravel-react
 cd laravel-react
@@ -10,6 +11,7 @@ npm install --save-dev @vitejs/plugin-react
 
 
 3)
+
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import react from '@vitejs/plugin-react';
@@ -23,3 +25,4 @@ export default defineConfig({
         react(),
     ],
 });
+```<pre> 
